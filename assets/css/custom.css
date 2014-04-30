@@ -1,0 +1,156 @@
+div,section,container{
+	height: inherit;
+	width: inherit;
+	display: block;
+	position: relative;
+}
+
+body{
+	width:100%;
+	margin: 0px;
+	padding-top:46px;
+}
+
+/*---classes----*/
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row{
+	width: 100%;
+}
+
+.row:after, .row:before{
+	content: " ";
+	display: table;
+}
+
+/*---ids------*/
+
+#nav{
+	width:100%;
+	top: 0px;
+	background-color: #131313;
+	height:46px;
+	position: fixed;
+	z-index: 1030;
+}
+
+
+#bod{
+
+}
+
+#navbox{
+	width: 130px;
+	background-color: #4897a4;
+	position: relative;
+}
+
+#bannersec{
+	height:394px;
+	background-color: gray;
+}
+
+#beatsec{
+	height: 785px;
+	background-color: white;
+
+}
+
+#promosec{
+	height: 82px;
+	background-color: #ec5453;
+}
+
+#iconsec{
+	height: 246px;
+	background-color: #dfe6ec;
+}
+
+#licensesec{
+	height: 605px;
+	background-color: white;
+}
+
+#contactsec{
+	height: 106px;
+	background-color: #8a94a0;
+}
+
+#subsec{
+	height: 318px;
+	background-color: white;
+}
+
+#footsec{
+	height: 331px;
+	background-color: #ebebeb;
+}
+
+#subfootsec{
+	height: 53px;
+	background-color: #606060;
+}
+
+
+#beatcolumn{
+	width:962px;
+}
+
+#scbox{
+	width: 638px;
+	height: 181px;
+	border: 2px;
+	border-style: solid;
+	border-color: #54b3c2;
+	position: relative;
+	background-color: #f0f0f0;
+}
+
+#beathead{
+	height: 73px;
+}
+
+#buybox{
+	width: 284px;
+	height: 183px;
+	background-color: #f0f0f0;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.row div{
+	float: left;
+}
+
+/*-------------max-width(900px)--------*/
+
+@media (max-width: 900px){
+
+.row div{
+float: none;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+}
+
+#beatcolumn{
+	width:100%;
+}
+
+}
+
+/*-------------min-width(900px)--------*/
+
+@media (min-width: 900px){
+
+
+#buybox{
+	margin-left:20px;
+}
+
+
+}
